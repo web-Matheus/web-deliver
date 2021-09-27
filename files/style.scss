@@ -1,0 +1,220 @@
+body{
+    @media only screen and(min-width:1200px){
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+        margin: 0;
+        padding: 0;
+        img{
+            width: 40rem;
+        }
+        header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 8rem;
+        margin-right: 8rem;
+        margin-top: 1.2rem;
+         #itens-menu a{
+           margin-left: 50px;
+           text-decoration: none;
+           color: black;
+        }
+        a{
+            font-family: 'Roboto Condensed', sans-serif;
+            text-decoration: none;
+            color: black;   
+        }
+    }
+    button{
+        background-color: #FFC727;
+        padding: 1.2rem;
+        border-radius: 30px;
+        border: none;
+        font-family: 'Roboto Condensed', sans-serif;;
+        cursor: pointer;
+    }
+    // 
+    main{
+        margin-left: 8rem;
+        margin-right: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            margin-top: -6rem;
+            font-size: 4rem;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        p{
+            font-size: 1.5rem;
+            max-width: 380px;
+        }
+    
+    }
+    // segunda parte 
+    section{
+        margin-left: 8rem;
+        margin-right: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            margin-left: -5rem;
+        }
+        h3{
+            font-size: 3rem;
+            max-width: 400px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        p{
+            font-size: 1.4rem;
+            max-width: 450px;
+        }
+    }
+    .services{
+        div{
+            display: flex;
+           flex-direction: column;
+           align-items: center;
+           background-color: #f7f7f7;
+           width: 40rem;
+           margin:20px ;
+           box-shadow: 5px 10px #f7f7f7;
+           border-radius: 10px;
+    
+           img{
+               width: 10rem;
+               margin-left: -10px;
+           }
+           p{
+               text-align:center ;
+               font-size: 1.2rem;
+           }
+           a{
+               text-decoration: none;
+               color: black;
+               font-family: 'Lato', sans-serif;
+           }
+        }
+    }
+    .lastdiv{
+        margin-top: 10rem;
+    }
+}
+@media only screen and(max-width:667px){
+    img{
+        width: 25rem;
+    }
+    header{
+    display: block;
+    margin-left: 1.2rem;
+    .logo{
+        float: right;
+        margin: 1.2rem;
+    }
+    #itens-menu{
+        text-decoration: none;
+       color: black;
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        background-color: #e7e7e7;
+        z-index: 1000;
+        overflow: hidden;
+      
+    }
+     #itens-menu a{
+        display: none; 
+        font-size: 2rem;
+        height: 100px;
+        text-align: center;
+        
+    }
+    #itens-menu a:hover{
+        background-color: gray;
+        color: white;
+    }
+    #itens-menu.active a{
+       display: block;
+      font-size: 2rem;
+      
+    }
+    a{
+        font-family: 'Roboto Condensed', sans-serif;
+        text-decoration: none;
+        color: black;   
+    }
+}
+button{
+    background-color: #FFC727;
+    padding: 1.2rem;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;;
+    cursor: pointer;
+}
+// 
+main{
+   margin: 2rem;
+
+    h1{
+        font-size: 4rem;
+        font-family: 'Roboto Condensed', sans-serif;
+        display: inline-block;
+    }
+    p{
+        font-size: 1.5rem;
+        margin-top: -2rem;
+    }
+    img{
+        width: 25rem;
+        float: right;
+        margin-top: -5rem;
+    }
+
+}
+// segunda parte 
+section{
+   
+    h3{
+        display: inline-block;
+        font-size: 3rem;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    p{
+        font-size: 1.4rem;
+       
+    }
+}
+.services{
+    div{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       background-color: #f7f7f7;
+       width: 25rem;
+       margin:20px ;
+       box-shadow: 5px 10px #f7f7f7;
+       border-radius: 10px;
+
+       img{
+           width: 10rem;
+           margin-left: -10px;
+       }
+       p{
+           text-align:center ;
+           font-size: 1.2rem;
+       }
+       a{
+           text-decoration: none;
+           color: black;
+           font-family: 'Lato', sans-serif;
+       }
+    }
+}
+.lastdiv{
+    margin-top: 10rem;
+}
+}
+}
+
